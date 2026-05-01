@@ -1,7 +1,7 @@
 cask "byte" do
-  version "1.00"
-  sha256 "c90ccad08ea8a19a94c82aee2286aeaf52c85b20b6b64513836fec88838322d6"
-  url "https://github.com/usebyte/byte/releases/download/v1.00/Byte_aarch64.dmg"
+  version "1.0.1"
+  sha256 "55cfb5ecf372277545e3149521cbea1047dbce43130ae1c58aaa04c800399b3d"
+  url "https://github.com/usebyte/byte/releases/download/v1.0.1/Byte_aarch64.dmg"
 
   name "Byte"
   desc "AI assistant for your desktop"
@@ -13,8 +13,6 @@ cask "byte" do
   end
 
   auto_updates true
-
-  no_quarantine true
 
   app "Byte.app"
 end
